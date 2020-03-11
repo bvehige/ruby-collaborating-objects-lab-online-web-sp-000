@@ -13,7 +13,7 @@ def files
 end
   
 def import
-  
+  files.each
   
 end
 
