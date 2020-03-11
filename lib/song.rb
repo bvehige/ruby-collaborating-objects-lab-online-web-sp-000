@@ -10,6 +10,9 @@ def initialize(name)
   @@all << @name 
 end
 
+def self.all 
+  @@all 
+
 def self.new_by_filename(filename)
  song_name = filename.split(" -  ")[1]
  artist = filename.split(" - ")[0]
