@@ -8,6 +8,7 @@ class Song
   end
 
   def self.all
+    artist.song
     
     
     
