@@ -10,8 +10,8 @@ class Song
     @@all = self 
   end
 
-  def self.all
-    Artist.print_songs
+  def Song.all
+    @all
   end
     
     
