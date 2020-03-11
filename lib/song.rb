@@ -11,7 +11,7 @@ class Song
   end
 
   def self.all
-    artist.print_songs
+    Artist.print_songs
   end
     
     
