@@ -13,7 +13,10 @@ end
 
 def self.all 
   @@all
+
 end
+
+  
 
 def self.new_by_filename(filename)
  song_name = filename.split(" -  ")[1]
