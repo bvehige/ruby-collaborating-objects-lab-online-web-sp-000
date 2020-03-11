@@ -24,6 +24,7 @@ def self.new_by_filename(filename)
 end
 
 def artist_name=
+  Artist.find_or_create_by_name(artist_name)
   
 end
  
